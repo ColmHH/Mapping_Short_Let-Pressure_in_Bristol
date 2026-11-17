@@ -1,0 +1,50 @@
+column,reason
+maximum_maximum_nights,Calendar-window variants of minimum/maximum nights: not needed for H1 to H3; minimum_nights and maximum_nights kept
+maximum_minimum_nights,Calendar-window variants of minimum/maximum nights: not needed for H1 to H3; minimum_nights and maximum_nights kept
+maximum_nights_avg_ntm,Calendar-window variants of minimum/maximum nights: not needed for H1 to H3; minimum_nights and maximum_nights kept
+minimum_maximum_nights,Calendar-window variants of minimum/maximum nights: not needed for H1 to H3; minimum_nights and maximum_nights kept
+minimum_minimum_nights,Calendar-window variants of minimum/maximum nights: not needed for H1 to H3; minimum_nights and maximum_nights kept
+minimum_nights_avg_ntm,Calendar-window variants of minimum/maximum nights: not needed for H1 to H3; minimum_nights and maximum_nights kept
+bathrooms,Constant or entirely empty: carries no information
+calendar_last_scraped,Constant or entirely empty: carries no information
+calendar_updated,Constant or entirely empty: carries no information
+host_acceptance_rate,Constant or entirely empty: carries no information
+host_neighbourhood,Constant or entirely empty: carries no information
+host_response_rate,Constant or entirely empty: carries no information
+host_response_time,Constant or entirely empty: carries no information
+host_since,Constant or entirely empty: carries no information
+host_thumbnail_url,Constant or entirely empty: carries no information
+host_total_listings_count,Constant or entirely empty: carries no information
+host_verifications,Constant or entirely empty: carries no information
+instant_bookable,Constant or entirely empty: carries no information
+last_scraped,Constant or entirely empty: carries no information
+license,Constant or entirely empty: carries no information
+neighborhood_overview,Constant or entirely empty: carries no information
+neighbourhood,Constant or entirely empty: carries no information
+neighbourhood_group_cleansed,Constant or entirely empty: carries no information
+scrape_id,Constant or entirely empty: carries no information
+host_listings_count,Different scope from the Bristol count; analysis uses calculated_host_listings_count throughout
+price_quote_price_per_night,Duplicate of price (max difference checked)
+host_has_profile_pic,Host profile details: not relevant to operator concentration or listing behaviour
+host_identity_verified,Host profile details: not relevant to operator concentration or listing behaviour
+hosts_time_as_user_months,Host tenure: not useful to the analysis
+hosts_time_as_user_years,Host tenure: not useful to the analysis
+description,"Personal data, URL or free text: not needed and shouldn't be published"
+host_about,"Personal data, URL or free text: not needed and shouldn't be published"
+host_location,"Personal data, URL or free text: not needed and shouldn't be published"
+host_name,"Personal data, URL or free text: not needed and shouldn't be published"
+host_picture_url,"Personal data, URL or free text: not needed and shouldn't be published"
+host_profile_url,"Personal data, URL or free text: not needed and shouldn't be published"
+host_url,"Personal data, URL or free text: not needed and shouldn't be published"
+listing_url,"Personal data, URL or free text: not needed and shouldn't be published"
+name,"Personal data, URL or free text: not needed and shouldn't be published"
+picture_url,"Personal data, URL or free text: not needed and shouldn't be published"
+price_quote_checkin_date,"Quote for one sample stay, not a stable listing attribute; nightly price is in price"
+price_quote_checkout_date,"Quote for one sample stay, not a stable listing attribute; nightly price is in price"
+price_quote_raw,"Quote for one sample stay, not a stable listing attribute; nightly price is in price"
+price_quote_total_price,"Quote for one sample stay, not a stable listing attribute; nightly price is in price"
+host_id,Replaced by anonymous host_key (host_id); host_profile_id is redundant
+host_profile_id,Replaced by anonymous host_key (host_id); host_profile_id is redundant
+source,Replaced by boolean from_previous_scrape
+bathrooms_text,Replaced by numeric bathroom_count and bathroom_shared
+has_availability,Unreliable: flagged True for 585 listings whose calendar shows zero available days

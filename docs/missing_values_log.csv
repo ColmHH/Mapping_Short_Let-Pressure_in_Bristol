@@ -1,0 +1,9 @@
+column(s),n_missing,cause,decision,pct_of_listings
+"review_scores_* (7 columns), first_review, last_review, reviews_per_month",288,"No reviews, so no value exists (0 exceptions)","Left as missing; H3 uses the 2,644 reviewed listings",9.8
+price,671,622 previous-scrape listings; 590 zero availability,"Left as missing, plus price_missing flag",22.9
+estimated_revenue_l365d,671,Same listings as price; modelled estimate,Left as missing,22.9
+source,2227,Not missing data: blank means current scrape,"Converted to from_previous_scrape, then dropped",76.0
+beds,53,Isolated gaps,Left as missing; not used in H1 to H3,1.8
+bedrooms,4,Isolated gaps,Left as missing,0.1
+bathroom_count,2,Same listings as missing bathrooms_text,Left as missing,0.1
+"minimum_nights, maximum_nights",1,One listing,Left as missing,0.0
